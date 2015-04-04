@@ -16,6 +16,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [_spinner startAnimating];
+    _spinner.hidesWhenStopped = true;
     [self resetData];
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
 }
@@ -34,12 +36,26 @@
     
     _statuesTitle.text = _data.title;
     _statuesDescription.text = _data.description;
-    
-    NSData* img = [NSData dataWithContentsOfURL:[NSURL URLWithString:_data.image]];
-    UIImageView* imgView = [_image initWithImage:[UIImage imageWithData:img]];
-    imgView.image = [self ScaleImgPropoWidth:imgView.image scaledToSize:CGSizeMake(320, 170)];
+
+    NSData* img = [NSData new];
+    NSArray* array = [NSArray arrayWithObjects:[NSURL URLWithString:_data.image], img, nil];
+    NSOperation* operation = (NSInvocationOperation*)[[NSInvocationOperation alloc] initWithTarget:self selector:@selector(beginLoadingImage:) object:array];
+    [[NSOperationQueue currentQueue] addOperation:operation];
 }
 
+//In background  -----------------------------------------------------------------
+- (void) beginLoadingImage: (NSArray*) array
+{
+    NSURL* url =  array[0];
+    NSData* img = array[1];
+    
+    img = [NSData dataWithContentsOfURL:url];
+    UIImageView* imgView = [_image initWithImage:[UIImage imageWithData:img]];
+    imgView.image = [self ScaleImgPropoWidth:imgView.image scaledToSize:CGSizeMake(320, 170)];
+    [_spinner stopAnimating];
+}
+
+//--------------------------------------------------------------------------------
 - (IBAction)actionShowOnMap:(UIButton *)sender
 {
     UIStoryboard* mainSB = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
@@ -53,20 +69,10 @@
     [map scrollToPinWithId:_data.id];
 }
 
+//--------------------------------------------------------------------------------
 - (UIImage *)ScaleImgPropoWidth:(UIImage *)image scaledToSize:(CGSize)newSize {
     CGFloat ratio = newSize.height / image.size.height;
     UIImage *scaledImage = [UIImage imageWithCGImage:[image CGImage] scale:(image.scale / ratio) orientation:(image.imageOrientation)];
-//    CGRect clipRect = CGRectMake(0, 0, scaledImage.size.width, scaledImage.size.height);
-//    CGSize sz = CGSizeMake(newSize.width, scaledImage.size.height);
-//    if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)]) {
-//        UIGraphicsBeginImageContextWithOptions(sz, YES, 0.0);
-//    } else {
-//        UIGraphicsBeginImageContext(sz);
-//    }
-//    UIRectClip(clipRect);
-//    [image drawInRect:clipRect];
-//    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
-//    UIGraphicsEndImageContext();
     return scaledImage;
 }
 @end

@@ -21,5 +21,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) IBOutlet UILabel *statuesTitle;
 @property (weak, nonatomic) IBOutlet UITextView *statuesDescription;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 - (IBAction)actionShowOnMap:(UIButton *)sender;
 @end

@@ -14,7 +14,6 @@
 		84A583101A9F5812006B5EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A5830E1A9F5812006B5EE6 /* Main.storyboard */; };
 		84A583121A9F5812006B5EE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A583111A9F5812006B5EE6 /* Images.xcassets */; };
 		84A583151A9F5812006B5EE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A583131A9F5812006B5EE6 /* LaunchScreen.xib */; };
-		84A583211A9F5812006B5EE6 /* MonumentMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A583201A9F5812006B5EE6 /* MonumentMapTests.m */; };
 		84A9209C1AA304F1009BE61B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9209B1AA304F1009BE61B /* DetailViewController.m */; };
 		84A920A01AA31C8B009BE61B /* notebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9209E1AA31C8B009BE61B /* notebook@2x.png */; };
 		84A920A11AA31C8B009BE61B /* signpost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9209F1AA31C8B009BE61B /* signpost@2x.png */; };
@@ -35,16 +34,6 @@
 		84B021A81A9FC2330042A5D0 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B021A41A9FC2330042A5D0 /* JSONModelError.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		84A5831B1A9F5812006B5EE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84A582F91A9F5812006B5EE6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84A583001A9F5812006B5EE6;
-			remoteInfo = MonumentMap;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		849F6AEF1AA6059F00D77F2D /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		849F6AF01AA6059F00D77F2D /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
@@ -58,9 +47,6 @@
 		84A5830F1A9F5812006B5EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A583111A9F5812006B5EE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84A583141A9F5812006B5EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		84A5831A1A9F5812006B5EE6 /* MonumentMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonumentMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84A5831F1A9F5812006B5EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84A583201A9F5812006B5EE6 /* MonumentMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonumentMapTests.m; sourceTree = "<group>"; };
 		84A9209A1AA304F1009BE61B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		84A9209B1AA304F1009BE61B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		84A9209E1AA31C8B009BE61B /* notebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notebook@2x.png"; path = "img/notebook@2x.png"; sourceTree = "<group>"; };
@@ -105,13 +91,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84A583171A9F5812006B5EE6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -121,7 +100,6 @@
 				84A5830E1A9F5812006B5EE6 /* Main.storyboard */,
 				84A583131A9F5812006B5EE6 /* LaunchScreen.xib */,
 				84A583031A9F5812006B5EE6 /* MonumentMap */,
-				84A5831D1A9F5812006B5EE6 /* MonumentMapTests */,
 				84A583021A9F5812006B5EE6 /* Products */,
 				84A583041A9F5812006B5EE6 /* Supporting Files */,
 			);
@@ -131,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				84A583011A9F5812006B5EE6 /* MonumentMap.app */,
-				84A5831A1A9F5812006B5EE6 /* MonumentMapTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,23 +145,6 @@
 			);
 			name = "Supporting Files";
 			path = MonumentMap;
-			sourceTree = "<group>";
-		};
-		84A5831D1A9F5812006B5EE6 /* MonumentMapTests */ = {
-			isa = PBXGroup;
-			children = (
-				84A583201A9F5812006B5EE6 /* MonumentMapTests.m */,
-				84A5831E1A9F5812006B5EE6 /* Supporting Files */,
-			);
-			path = MonumentMapTests;
-			sourceTree = "<group>";
-		};
-		84A5831E1A9F5812006B5EE6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				84A5831F1A9F5812006B5EE6 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		84A9209D1AA31C7E009BE61B /* img */ = {
@@ -259,24 +219,6 @@
 			productReference = 84A583011A9F5812006B5EE6 /* MonumentMap.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84A583191A9F5812006B5EE6 /* MonumentMapTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84A583271A9F5812006B5EE6 /* Build configuration list for PBXNativeTarget "MonumentMapTests" */;
-			buildPhases = (
-				84A583161A9F5812006B5EE6 /* Sources */,
-				84A583171A9F5812006B5EE6 /* Frameworks */,
-				84A583181A9F5812006B5EE6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84A5831C1A9F5812006B5EE6 /* PBXTargetDependency */,
-			);
-			name = MonumentMapTests;
-			productName = MonumentMapTests;
-			productReference = 84A5831A1A9F5812006B5EE6 /* MonumentMapTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -288,10 +230,6 @@
 				TargetAttributes = {
 					84A583001A9F5812006B5EE6 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					84A583191A9F5812006B5EE6 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 84A583001A9F5812006B5EE6;
 					};
 				};
 			};
@@ -309,7 +247,6 @@
 			projectRoot = "";
 			targets = (
 				84A583001A9F5812006B5EE6 /* MonumentMap */,
-				84A583191A9F5812006B5EE6 /* MonumentMapTests */,
 			);
 		};
 /* End PBXProject section */
@@ -324,13 +261,6 @@
 				84A920A01AA31C8B009BE61B /* notebook@2x.png in Resources */,
 				84A583151A9F5812006B5EE6 /* LaunchScreen.xib in Resources */,
 				84A583121A9F5812006B5EE6 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84A583181A9F5812006B5EE6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,23 +290,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84A583161A9F5812006B5EE6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84A583211A9F5812006B5EE6 /* MonumentMapTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		84A5831C1A9F5812006B5EE6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84A583001A9F5812006B5EE6 /* MonumentMap */;
-			targetProxy = 84A5831B1A9F5812006B5EE6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		84A5830E1A9F5812006B5EE6 /* Main.storyboard */ = {
@@ -502,40 +416,6 @@
 			};
 			name = Release;
 		};
-		84A583281A9F5812006B5EE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MonumentMapTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonumentMap.app/MonumentMap";
-			};
-			name = Debug;
-		};
-		84A583291A9F5812006B5EE6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MonumentMapTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonumentMap.app/MonumentMap";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,15 +433,6 @@
 			buildConfigurations = (
 				84A583251A9F5812006B5EE6 /* Debug */,
 				84A583261A9F5812006B5EE6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84A583271A9F5812006B5EE6 /* Build configuration list for PBXNativeTarget "MonumentMapTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84A583281A9F5812006B5EE6 /* Debug */,
-				84A583291A9F5812006B5EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
