@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		849F6AF11AA6059F00D77F2D /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 849F6AF01AA6059F00D77F2D /* Annotation.m */; };
 		84A583071A9F5812006B5EE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A583061A9F5812006B5EE6 /* main.m */; };
 		84A5830A1A9F5812006B5EE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A583091A9F5812006B5EE6 /* AppDelegate.m */; };
 		84A5830D1A9F5812006B5EE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5830C1A9F5812006B5EE6 /* ViewController.m */; };
@@ -14,6 +15,24 @@
 		84A583121A9F5812006B5EE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A583111A9F5812006B5EE6 /* Images.xcassets */; };
 		84A583151A9F5812006B5EE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A583131A9F5812006B5EE6 /* LaunchScreen.xib */; };
 		84A583211A9F5812006B5EE6 /* MonumentMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A583201A9F5812006B5EE6 /* MonumentMapTests.m */; };
+		84A9209C1AA304F1009BE61B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9209B1AA304F1009BE61B /* DetailViewController.m */; };
+		84A920A01AA31C8B009BE61B /* notebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9209E1AA31C8B009BE61B /* notebook@2x.png */; };
+		84A920A11AA31C8B009BE61B /* signpost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9209F1AA31C8B009BE61B /* signpost@2x.png */; };
+		84A920A31AA31F3F009BE61B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A920A21AA31F3F009BE61B /* UIKit.framework */; };
+		84A920A51AA31F46009BE61B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A920A41AA31F46009BE61B /* CoreGraphics.framework */; };
+		84A920A71AA31F51009BE61B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A920A61AA31F51009BE61B /* MapKit.framework */; };
+		84A920AA1AA32195009BE61B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A920A91AA32195009BE61B /* MapViewController.m */; };
+		84A920AD1AA32AD5009BE61B /* Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A920AC1AA32AD5009BE61B /* Pin.m */; };
+		84A920B01AA3319B009BE61B /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A920AF1AA3319B009BE61B /* DataBase.m */; };
+		84B0218E1A9FAE7D0042A5D0 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B0218D1A9FAE7D0042A5D0 /* DataModel.m */; };
+		84B021911A9FB9360042A5D0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B021901A9FB9360042A5D0 /* SystemConfiguration.framework */; };
+		84B021941A9FBDE10042A5D0 /* UICell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B021931A9FBDE10042A5D0 /* UICell.m */; };
+		84B0219A1A9FC1B40042A5D0 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B021971A9FC1B40042A5D0 /* JSONKeyMapper.m */; };
+		84B0219B1A9FC1B40042A5D0 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B021991A9FC1B40042A5D0 /* JSONValueTransformer.m */; };
+		84B021A51A9FC2330042A5D0 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B0219E1A9FC2330042A5D0 /* JSONModel.m */; };
+		84B021A61A9FC2330042A5D0 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B021A01A9FC2330042A5D0 /* JSONModelArray.m */; };
+		84B021A71A9FC2330042A5D0 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B021A21A9FC2330042A5D0 /* JSONModelClassProperty.m */; };
+		84B021A81A9FC2330042A5D0 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B021A41A9FC2330042A5D0 /* JSONModelError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		849F6AEF1AA6059F00D77F2D /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		849F6AF01AA6059F00D77F2D /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
 		84A583011A9F5812006B5EE6 /* MonumentMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonumentMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A583051A9F5812006B5EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A583061A9F5812006B5EE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +61,36 @@
 		84A5831A1A9F5812006B5EE6 /* MonumentMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonumentMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A5831F1A9F5812006B5EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A583201A9F5812006B5EE6 /* MonumentMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonumentMapTests.m; sourceTree = "<group>"; };
+		84A9209A1AA304F1009BE61B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		84A9209B1AA304F1009BE61B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		84A9209E1AA31C8B009BE61B /* notebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notebook@2x.png"; path = "img/notebook@2x.png"; sourceTree = "<group>"; };
+		84A9209F1AA31C8B009BE61B /* signpost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "signpost@2x.png"; path = "img/signpost@2x.png"; sourceTree = "<group>"; };
+		84A920A21AA31F3F009BE61B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84A920A41AA31F46009BE61B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84A920A61AA31F51009BE61B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84A920A81AA32195009BE61B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		84A920A91AA32195009BE61B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		84A920AB1AA32AD5009BE61B /* Pin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pin.h; sourceTree = "<group>"; };
+		84A920AC1AA32AD5009BE61B /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pin.m; sourceTree = "<group>"; };
+		84A920AE1AA3319A009BE61B /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		84A920AF1AA3319B009BE61B /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		84B0218C1A9FAE7D0042A5D0 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		84B0218D1A9FAE7D0042A5D0 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		84B021901A9FB9360042A5D0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84B021921A9FBDE10042A5D0 /* UICell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICell.h; sourceTree = "<group>"; };
+		84B021931A9FBDE10042A5D0 /* UICell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICell.m; sourceTree = "<group>"; };
+		84B021961A9FC1B40042A5D0 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		84B021971A9FC1B40042A5D0 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		84B021981A9FC1B40042A5D0 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		84B021991A9FC1B40042A5D0 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		84B0219D1A9FC2330042A5D0 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		84B0219E1A9FC2330042A5D0 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		84B0219F1A9FC2330042A5D0 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		84B021A01A9FC2330042A5D0 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		84B021A11A9FC2330042A5D0 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		84B021A21A9FC2330042A5D0 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		84B021A31A9FC2330042A5D0 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		84B021A41A9FC2330042A5D0 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +98,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A920A71AA31F51009BE61B /* MapKit.framework in Frameworks */,
+				84A920A51AA31F46009BE61B /* CoreGraphics.framework in Frameworks */,
+				84A920A31AA31F3F009BE61B /* UIKit.framework in Frameworks */,
+				84B021911A9FB9360042A5D0 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +118,12 @@
 		84A582F81A9F5812006B5EE6 = {
 			isa = PBXGroup;
 			children = (
+				84A5830E1A9F5812006B5EE6 /* Main.storyboard */,
+				84A583131A9F5812006B5EE6 /* LaunchScreen.xib */,
 				84A583031A9F5812006B5EE6 /* MonumentMap */,
 				84A5831D1A9F5812006B5EE6 /* MonumentMapTests */,
 				84A583021A9F5812006B5EE6 /* Products */,
+				84A583041A9F5812006B5EE6 /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +139,13 @@
 		84A583031A9F5812006B5EE6 /* MonumentMap */ = {
 			isa = PBXGroup;
 			children = (
-				84A583081A9F5812006B5EE6 /* AppDelegate.h */,
-				84A583091A9F5812006B5EE6 /* AppDelegate.m */,
+				84B0218F1A9FB6E70042A5D0 /* Common */,
 				84A5830B1A9F5812006B5EE6 /* ViewController.h */,
 				84A5830C1A9F5812006B5EE6 /* ViewController.m */,
-				84A5830E1A9F5812006B5EE6 /* Main.storyboard */,
-				84A583111A9F5812006B5EE6 /* Images.xcassets */,
-				84A583131A9F5812006B5EE6 /* LaunchScreen.xib */,
-				84A583041A9F5812006B5EE6 /* Supporting Files */,
+				84A9209A1AA304F1009BE61B /* DetailViewController.h */,
+				84A9209B1AA304F1009BE61B /* DetailViewController.m */,
+				84A920A81AA32195009BE61B /* MapViewController.h */,
+				84A920A91AA32195009BE61B /* MapViewController.m */,
 			);
 			path = MonumentMap;
 			sourceTree = "<group>";
@@ -96,10 +153,21 @@
 		84A583041A9F5812006B5EE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84A920A61AA31F51009BE61B /* MapKit.framework */,
+				84A920A41AA31F46009BE61B /* CoreGraphics.framework */,
+				84A920A21AA31F3F009BE61B /* UIKit.framework */,
+				84A9209D1AA31C7E009BE61B /* img */,
+				84B021901A9FB9360042A5D0 /* SystemConfiguration.framework */,
+				84B0219C1A9FC2330042A5D0 /* JSONModel */,
+				84B021951A9FC1B40042A5D0 /* JSONModelTransformations */,
+				84A583081A9F5812006B5EE6 /* AppDelegate.h */,
+				84A583091A9F5812006B5EE6 /* AppDelegate.m */,
+				84A583111A9F5812006B5EE6 /* Images.xcassets */,
 				84A583051A9F5812006B5EE6 /* Info.plist */,
 				84A583061A9F5812006B5EE6 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = MonumentMap;
 			sourceTree = "<group>";
 		};
 		84A5831D1A9F5812006B5EE6 /* MonumentMapTests */ = {
@@ -117,6 +185,58 @@
 				84A5831F1A9F5812006B5EE6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A9209D1AA31C7E009BE61B /* img */ = {
+			isa = PBXGroup;
+			children = (
+				84A9209E1AA31C8B009BE61B /* notebook@2x.png */,
+				84A9209F1AA31C8B009BE61B /* signpost@2x.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		84B0218F1A9FB6E70042A5D0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84B021921A9FBDE10042A5D0 /* UICell.h */,
+				84B021931A9FBDE10042A5D0 /* UICell.m */,
+				84B0218C1A9FAE7D0042A5D0 /* DataModel.h */,
+				84B0218D1A9FAE7D0042A5D0 /* DataModel.m */,
+				84A920AB1AA32AD5009BE61B /* Pin.h */,
+				84A920AC1AA32AD5009BE61B /* Pin.m */,
+				84A920AE1AA3319A009BE61B /* DataBase.h */,
+				84A920AF1AA3319B009BE61B /* DataBase.m */,
+				849F6AEF1AA6059F00D77F2D /* Annotation.h */,
+				849F6AF01AA6059F00D77F2D /* Annotation.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		84B021951A9FC1B40042A5D0 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				84B021961A9FC1B40042A5D0 /* JSONKeyMapper.h */,
+				84B021971A9FC1B40042A5D0 /* JSONKeyMapper.m */,
+				84B021981A9FC1B40042A5D0 /* JSONValueTransformer.h */,
+				84B021991A9FC1B40042A5D0 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		84B0219C1A9FC2330042A5D0 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				84B0219D1A9FC2330042A5D0 /* JSONModel.h */,
+				84B0219E1A9FC2330042A5D0 /* JSONModel.m */,
+				84B0219F1A9FC2330042A5D0 /* JSONModelArray.h */,
+				84B021A01A9FC2330042A5D0 /* JSONModelArray.m */,
+				84B021A11A9FC2330042A5D0 /* JSONModelClassProperty.h */,
+				84B021A21A9FC2330042A5D0 /* JSONModelClassProperty.m */,
+				84B021A31A9FC2330042A5D0 /* JSONModelError.h */,
+				84B021A41A9FC2330042A5D0 /* JSONModelError.m */,
+			);
+			path = JSONModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +320,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A583101A9F5812006B5EE6 /* Main.storyboard in Resources */,
+				84A920A11AA31C8B009BE61B /* signpost@2x.png in Resources */,
+				84A920A01AA31C8B009BE61B /* notebook@2x.png in Resources */,
 				84A583151A9F5812006B5EE6 /* LaunchScreen.xib in Resources */,
 				84A583121A9F5812006B5EE6 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +341,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B0219A1A9FC1B40042A5D0 /* JSONKeyMapper.m in Sources */,
+				84B021A51A9FC2330042A5D0 /* JSONModel.m in Sources */,
+				849F6AF11AA6059F00D77F2D /* Annotation.m in Sources */,
 				84A5830D1A9F5812006B5EE6 /* ViewController.m in Sources */,
+				84B021A61A9FC2330042A5D0 /* JSONModelArray.m in Sources */,
+				84B0218E1A9FAE7D0042A5D0 /* DataModel.m in Sources */,
+				84B021A81A9FC2330042A5D0 /* JSONModelError.m in Sources */,
 				84A5830A1A9F5812006B5EE6 /* AppDelegate.m in Sources */,
+				84A920AD1AA32AD5009BE61B /* Pin.m in Sources */,
+				84A920AA1AA32195009BE61B /* MapViewController.m in Sources */,
+				84B0219B1A9FC1B40042A5D0 /* JSONValueTransformer.m in Sources */,
+				84B021A71A9FC2330042A5D0 /* JSONModelClassProperty.m in Sources */,
+				84A920B01AA3319B009BE61B /* DataBase.m in Sources */,
+				84B021941A9FBDE10042A5D0 /* UICell.m in Sources */,
 				84A583071A9F5812006B5EE6 /* main.m in Sources */,
+				84A9209C1AA304F1009BE61B /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +385,7 @@
 				84A5830F1A9F5812006B5EE6 /* Base */,
 			);
 			name = Main.storyboard;
+			path = MonumentMap;
 			sourceTree = "<group>";
 		};
 		84A583131A9F5812006B5EE6 /* LaunchScreen.xib */ = {
@@ -258,6 +394,7 @@
 				84A583141A9F5812006B5EE6 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = MonumentMap;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,7 +480,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MonumentMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +493,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MonumentMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +555,7 @@
 				84A583261A9F5812006B5EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A583271A9F5812006B5EE6 /* Build configuration list for PBXNativeTarget "MonumentMapTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +564,7 @@
 				84A583291A9F5812006B5EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
